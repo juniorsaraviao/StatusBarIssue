@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samplemaui:BasicContentPage xmlns:samplemaui="clr-namespace:SampleMaui"
+                             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                             x:Class="SampleMaui.SecondPage">
+    <StackLayout VerticalOptions="FillAndExpand"
+                 BackgroundColor="Yellow">
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Welcome to the Second Page"
+                   HorizontalOptions="Center" />
+
+            <Button Text="Back"
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+        
+    </StackLayout>
+</samplemaui:BasicContentPage>
